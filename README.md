@@ -4,6 +4,9 @@ Android TV Notifier is an Android app that allows users to send notifications fr
 It can immediately forward app notifications from your mobile device to your Android TV. Including the application logo or the incoming caller/sms sender contact image.
 You can also send custom notifications using automation apps like Tasker, Macrodroid, etc.
 
+[![Github All Releases](https://img.shields.io/github/v/release/smrtprjcts/atvnotif?label=Release&logo=github)]()
+[![Github All Releases](https://img.shields.io/github/downloads/smrtprjcts/atvnotif/total.svg?label=Github%20APK%20Downloads&logo=github)]()
+
 # Download / Installation
 
 ## Google Play version
