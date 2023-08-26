@@ -5,7 +5,7 @@ It can immediately forward app notifications from your mobile device to your And
 You can also send custom notifications using automation apps like Tasker, Macrodroid, etc.
 
 [![Github All Releases](https://img.shields.io/github/v/release/smrtprjcts/atvnotif?label=Release&logo=github&display_name=release)]()
-[![Github All Releases](https://img.shields.io/github/downloads/smrtprjcts/atvnotif/total.svg?label=Github%20APK%20Downloads&logo=github)]()
+[![Github All Releases](https://img.shields.io/github/downloads/smrtprjcts/atvnotif/total.svg?label=APK%20Downloads&logo=github)]()
 
 # Download / Installation
 
