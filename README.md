@@ -1,13 +1,16 @@
 # Android TV Notifier
 
 Android TV Notifier is an Android app that allows users to send notifications from phone or tablet to an Android TV.
-It can immediately forward app notifications from your mobile device to your Android TV. Including the application logo, content image or the incoming caller/sms sender contact image.
+It can immediately forward app notifications from your mobile device to your Android TV. Including the application logo, content image or the incoming caller/sms sender contact image.<br>
 You can also send custom notifications using automation apps like **Tasker, Macrodroid**, etc.
 
 [![Github All Releases](https://img.shields.io/github/v/release/smrtprjcts/atvnotif?label=Release&logo=github&display_name=release)]()
 [![Github All Releases](https://img.shields.io/github/downloads/smrtprjcts/atvnotif/total.svg?label=APK%20Downloads&logo=github)]()
 
 # Download / Installation
+
+Minimum requirements: Android 7 or higher.<br>
+Supported devices: every Android and Google TV devices and some special boxes. If you need support for any device, drop me an [e-mail](mailto:smrtprjcts+atvnotif@gmail.com)
 
 ## Google Play version
 * Has restrictions required by Google for publishing on Google Play (SMS and call permissions). These differences are only affect the mobile side working (so installing the Github version doesn't give any advantage on the TV site)
