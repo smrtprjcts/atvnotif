@@ -10,7 +10,7 @@ You can also send custom notifications using automation apps like **Tasker, Macr
 # Download / Installation
 
 Minimum requirements: Android 7 or higher.<br>
-Supported devices: every Android and Google TV devices and some special boxes. If you need support for any device, drop me an [e-mail](mailto:smrtprjcts+atvnotif@gmail.com)
+Supported devices: every Android and Google TV (real TV devices and TV Boxes, like Xiaomi Miboxes) and some special devices (e.g.: GE Kitchen Hub). If you need support for any device, drop me an [e-mail](mailto:smrtprjcts+atvnotif@gmail.com)
 
 ## Google Play version
 * Has restrictions required by Google for publishing on Google Play (SMS and call permissions). These differences are only affect the mobile side working (so installing the Github version doesn't give any advantage on the TV site)
