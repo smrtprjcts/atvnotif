@@ -22,11 +22,9 @@ You can also send custom notifications using automation apps like **Tasker, Macr
 
 ## Github version
 * Has no restrictions. It includes the SMS and call permissions. Useful on mobiles, not on TVs.
-* Via **[GitHub Releases](https://github.com/smrtprjcts/atvnotif/releases)** the [latest release](https://github.com/smrtprjcts/atvnotif/releases/latest/download/ATVNotifier-github-release.apk).
-
-[<img src="https://camo.githubusercontent.com/70bffd8873ab81e1bb0bccc44e488c3a989e3bd5/68747470733a2f2f692e6962622e636f2f71306d6463345a2f6765742d69742d6f6e2d6769746875622e706e67"
+* Via **[GitHub Releases](https://github.com/smrtprjcts/atvnotif/releases)** the [latest release](https://github.com/smrtprjcts/atvnotif/releases/latest/download/ATVNotifier-github-release.apk)[<img src="https://camo.githubusercontent.com/70bffd8873ab81e1bb0bccc44e488c3a989e3bd5/68747470733a2f2f692e6962622e636f2f71306d6463345a2f6765742d69742d6f6e2d6769746875622e706e67"
      alt="Get it on GitHub"
-      height="80">](https://github.com/smrtprjcts/atvnotif/releases)
+      height="80">](https://github.com/smrtprjcts/atvnotif/releases).
 
 ## Important 
 If the the battery optimization permission isn't granted on the TV the app may be killed  by the system after a while. Then the mobile device won't be able to communicate with the TV.
