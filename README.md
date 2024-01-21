@@ -22,8 +22,7 @@ You can also send custom notifications using automation apps like **Tasker, Macr
 
 ## Github version
 * Has no restrictions. It includes the SMS and call permissions. Useful on mobiles, not on TVs.
-* Via **[GitHub Releases](https://github.com/smrtprjcts/atvnotif/releases)** the [latest release].
-(https://github.com/smrtprjcts/atvnotif/releases/latest/download/ATVNotifier-github-release.apk)[<img src="https://camo.githubusercontent.com/fde55fa09b32c742b8b52c51b7c787aebe3da2aecfc00086ff01b3b970f1de37/68747470733a2f2f756c747261736f6e69632e6769746875622e696f2f6173736574732f696d672f6765742d69742d6f6e2d6769746875622e706e67"
+* Via **[GitHub Releases](https://github.com/smrtprjcts/atvnotif/releases)** the [latest release](https://github.com/smrtprjcts/atvnotif/releases/latest/download/ATVNotifier-github-release.apk)[<img src="https://camo.githubusercontent.com/fde55fa09b32c742b8b52c51b7c787aebe3da2aecfc00086ff01b3b970f1de37/68747470733a2f2f756c747261736f6e69632e6769746875622e696f2f6173736574732f696d672f6765742d69742d6f6e2d6769746875622e706e67"
      alt="Get it on GitHub"
       height="80">](https://github.com/smrtprjcts/atvnotif/releases)
 
