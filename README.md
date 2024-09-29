@@ -10,6 +10,16 @@ You can also send custom notifications using automation apps like **Tasker, Macr
 # Download / Installation
 
 **Minimum requirements:** Android 7 or higher.<br>
+
+**Permissions**<br>
+Draw over other apps permission: Permission required to create an overlay. Depending on the Android version and manufacturer this option may not be available on a system setting menu. In this case, you will have to enable it via ADB command:<br>
+
+adb shell appops set com.smrtprjcts.atvnotif SYSTEM_ALERT_WINDOW allow<br>
+
+Battery optimization: This step is optional, but recommended to avoid the app being killed by the system. If you cannot access the system option to disable battery optimizationn, you may have to enable it via ADB command:<br>
+
+adb shell dumpsys deviceidle whitelist +com.smrtprjcts.atvnotif<br>
+<br>
 **Supported devices:** every Android and Google TV (real TV devices and TV Boxes, like Xiaomi Miboxes), Amazon Fire TV and some special devices (e.g.: GE Kitchen Hub).<br> If you need support for any device, drop me an [e-mail](mailto:smrtprjcts+atvnotif@gmail.com)
 
 ## Google Play version
