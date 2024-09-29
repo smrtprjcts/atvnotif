@@ -11,15 +11,6 @@ You can also send custom notifications using automation apps like **Tasker, Macr
 
 **Minimum requirements:** Android 7 or higher.<br>
 
-**Permissions**<br>
-Draw over other apps permission: Permission required to create an overlay. Depending on the Android version and manufacturer this option may not be available on a system setting menu. In this case, you will have to enable it via ADB command:<br>
-
-adb shell appops set com.smrtprjcts.atvnotif SYSTEM_ALERT_WINDOW allow<br>
-
-Battery optimization: This step is optional, but recommended to avoid the app being killed by the system. If you cannot access the system option to disable battery optimizationn, you may have to enable it via ADB command:<br>
-
-adb shell dumpsys deviceidle whitelist +com.smrtprjcts.atvnotif<br>
-<br>
 **Supported devices:** every Android and Google TV (real TV devices and TV Boxes, like Xiaomi Miboxes), Amazon Fire TV and some special devices (e.g.: GE Kitchen Hub).<br> If you need support for any device, drop me an [e-mail](mailto:smrtprjcts+atvnotif@gmail.com)
 
 ## Google Play version
@@ -37,6 +28,14 @@ adb shell dumpsys deviceidle whitelist +com.smrtprjcts.atvnotif<br>
 [<img src="https://camo.githubusercontent.com/fde55fa09b32c742b8b52c51b7c787aebe3da2aecfc00086ff01b3b970f1de37/68747470733a2f2f756c747261736f6e69632e6769746875622e696f2f6173736574732f696d672f6765742d69742d6f6e2d6769746875622e706e67" alt="Get it on GitHub" height="80">](https://github.com/smrtprjcts/atvnotif/releases)
 
 ## Important 
-If the the battery optimization permission isn't granted on the TV the app may be killed  by the system after a while. Then the mobile device won't be able to communicate with the TV.
-You can grant the necessary permission in the settings of the TV. To turn off the energy optimization, go to: Settings -> Apps -> Special App Permissions -> Energy Optimization and select the Android TV Notifier app.
-This menu may differ depending on the manufacturer and Android version.
+**Permissions**<br>
+Draw over other apps permission: Permission required to create an overlay. Depending on the Android version and manufacturer this option may not be available on a system setting menu. In this case, you will have to enable it via ADB command:<br>
+
+adb shell appops set com.smrtprjcts.atvnotif SYSTEM_ALERT_WINDOW allow<br>
+
+Battery optimization: This step is optional, but recommended to avoid the app being killed by the system. If the the battery optimization permission isn't granted on the TV the app may be killed  by the system after a while. Then the mobile device won't be able to communicate with the TV. You can grant it in the settings of the TV. To turn off the energy optimization, go to:<br>
+Settings -> Apps -> Special App Permissions -> Energy Optimization and select the Android TV Notifier app.<br>
+But this menu may differ depending on the manufacturer and Android version.<br>
+If you cannot access the system option to disable battery optimizationn, you may have to enable it via ADB command:<br>
+
+adb shell dumpsys deviceidle whitelist +com.smrtprjcts.atvnotif<br>
