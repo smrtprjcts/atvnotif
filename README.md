@@ -17,9 +17,7 @@ You can also send custom notifications using automation apps like **Tasker, Macr
 * Has restrictions required by Google for publishing on Google Play (SMS and call permissions). These differences are only affect the mobile side working (so installing the Github version doesn't give any advantage on the TV site)
 * **Get it on [Google Play](https://play.google.com/store/apps/details?id=com.smrtprjcts.atvnotif)**
 
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
-      alt="Get it on Google Play"
-      height="80">](https://play.google.com/store/apps/details?id=com.smrtprjcts.atvnotif)
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" height="80">](https://play.google.com/store/apps/details?id=com.smrtprjcts.atvnotif)
 
 ## Github version
 * Has no restrictions. It includes the SMS and call permissions. Useful on mobiles, not on TVs.
@@ -29,11 +27,11 @@ You can also send custom notifications using automation apps like **Tasker, Macr
 
 ## Important 
 **Permissions**<br>
-Draw over other apps permission: Permission required to create an overlay. Depending on the Android version and manufacturer this option may not be available on a system setting menu. In this case, you will have to enable it via ADB command:<br>
+* **Draw over other apps permission**: Permission required to create an overlay. Depending on the Android version and manufacturer this option may not be available on a system setting menu. In this case, you will have to enable it via ADB command:<br>
 
 adb shell appops set com.smrtprjcts.atvnotif SYSTEM_ALERT_WINDOW allow<br>
 
-Battery optimization: This step is optional, but recommended to avoid the app being killed by the system. If the the battery optimization permission isn't granted on the TV the app may be killed  by the system after a while. Then the mobile device won't be able to communicate with the TV. You can grant it in the settings of the TV. To turn off the energy optimization, go to:<br>
+* **Battery optimization**: This step is optional, but recommended to avoid the app being killed by the system. If the the battery optimization permission isn't granted on the TV the app may be killed  by the system after a while. Then the mobile device won't be able to communicate with the TV. You can grant it in the settings of the TV. To turn off the energy optimization, go to:<br>
 Settings -> Apps -> Special App Permissions -> Energy Optimization and select the Android TV Notifier app.<br>
 But this menu may differ depending on the manufacturer and Android version.<br>
 If you cannot access the system option to disable battery optimizationn, you may have to enable it via ADB command:<br>
