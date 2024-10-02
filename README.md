@@ -31,11 +31,11 @@ You can also send custom notifications using automation apps like **Tasker, Macr
 **Permissions**
 * **Draw over other apps permission**: Permission required to create an overlay. Depending on the Android version and manufacturer this option may not be available on a system setting menu. In this case, you will have to enable it via ADB command:\
 \
-adb shell appops set com.smrtprjcts.atvnotif SYSTEM_ALERT_WINDOW allow
+``adb shell appops set com.smrtprjcts.atvnotif SYSTEM_ALERT_WINDOW allow``
 
 * **Battery optimization**: This step is optional, but recommended to avoid the app being killed by the system. If the the battery optimization permission isn't granted on the TV the app may be killed  by the system after a while. Then the mobile device won't be able to communicate with the TV. You can grant it in the settings of the TV. To turn off the energy optimization, go to:\
 Settings -> Apps -> Special App Permissions -> Energy Optimization and select the Android TV Notifier app.\
 But this menu may differ depending on the manufacturer and Android version.<br>
 If you cannot access the system option to disable battery optimizationn, you may have to enable it via ADB command:\
 \
-adb shell dumpsys deviceidle whitelist +com.smrtprjcts.atvnotif
+``adb shell dumpsys deviceidle whitelist +com.smrtprjcts.atvnotif``
