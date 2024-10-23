@@ -9,6 +9,11 @@ You can also send custom notifications using automation apps like **Tasker, Macr
 [![Github All Releases](https://img.shields.io/github/v/release/smrtprjcts/atvnotif?label=Release&logo=github&display_name=release)]()
 [![Github All Releases](https://img.shields.io/github/downloads/smrtprjcts/atvnotif/total.svg?label=APK%20Downloads&logo=github)]()
 
+Short video:
+
+[![](https://img.youtube.com/vi/Y2tLMjrjYHU/hqdefault.jpg)](https://youtu.be/Y2tLMjrjYHU)
+
+
 # Download / Installation
 
 **Minimum requirements:** Android 7 or higher.<br>
