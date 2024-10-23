@@ -11,7 +11,7 @@ You can also send custom notifications using automation apps like **Tasker, Macr
 
 Short video:
 
-[![](https://img.youtube.com/vi/Y2tLMjrjYHU/hqdefault.jpg)](https://youtu.be/Y2tLMjrjYHU)
+[![](https://markdown-videos-api.jorgenkh.no/youtube/Y2tLMjrjYHU)](https://youtu.be/Y2tLMjrjYHU)
 
 
 # Download / Installation
