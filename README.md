@@ -27,7 +27,7 @@ Short video:
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" height="80">](https://play.google.com/store/apps/details?id=com.smrtprjcts.atvnotif)
 
 ## Github version
-* Has no restrictions. It includes the SMS and call permissions. It gives advantages on mobiles but not TVs.
+* Has no restrictions. It includes the SMS and call permissions. It gives advantages on mobiles but not on TVs.
 * Via **[GitHub Releases](https://github.com/smrtprjcts/atvnotif/releases)** the [latest release](https://github.com/smrtprjcts/atvnotif/releases/latest/download/ATVNotifier-github-release.apk)
 
 [<img src="https://raw.githubusercontent.com/ismartcoding/plain-app/main/assets/get-it-on-github.png" alt="Get it on GitHub" height="80">](https://github.com/smrtprjcts/atvnotif/releases)
