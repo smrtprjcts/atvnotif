@@ -32,6 +32,10 @@ Short video:
 
 [<img src="https://raw.githubusercontent.com/ismartcoding/plain-app/main/assets/get-it-on-github.png" alt="Get it on GitHub" height="80">](https://github.com/smrtprjcts/atvnotif/releases)
 
+#### ⚠️Google Play Billing
+This version also uses Google Play Billing for purchases. Even if the Google Store is available on the device, purchases may not work if the app was installed via ADB.
+If you experience this issue, install the app from the Google Play Store, then update it to the latest Github version and try the purchase again.
+
 ## Important 
 **Permissions**
 * **Draw over other apps permission**: Permission required to create an overlay. Depending on the Android version and manufacturer this option may not be available on a system setting menu. In this case, you will have to enable it via ADB command:\
